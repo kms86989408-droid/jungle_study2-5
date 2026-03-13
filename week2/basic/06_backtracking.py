@@ -21,7 +21,8 @@
 - 백트랙킹의 3단계: 선택(Choose) → 탐색(Explore) → 취소(Unchoose)
 - 현재 숫자보다 큰 숫자만 선택하여 중복 방지
 """
-
+n = 4
+k = 2
 def combinations(n, k):
     """
     1부터 n까지 숫자 중 k개를 선택하는 모든 조합 찾기
