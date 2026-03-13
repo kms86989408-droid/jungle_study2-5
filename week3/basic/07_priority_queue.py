@@ -41,7 +41,8 @@ def process_emergency_room(patients):
     
     
     # TODO: 모든 환자를 힙에 추가
-    pass
+    for i in range(len(patients)):
+        heap.append(patients[i])
         
     processed = []
     
