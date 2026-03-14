@@ -38,10 +38,12 @@ class LinkedList:
         new_node = Node(data)
         
         # TODO: 리스트가 비어있으면 head를 new_node로 설정
-        pass
+        if self.head is None:
+            self.head = new_node
+            return
         
         # TODO: 마지막 노드 찾기
-        pass
+        cureent = self.data 
         
         # TODO: 마지막 노드의 next를 new_node로 설정
         pass
