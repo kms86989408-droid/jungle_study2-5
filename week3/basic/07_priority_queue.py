@@ -45,11 +45,15 @@ def process_emergency_room(patients):
         heap.append(patients[i])
         
     processed = []
-    
+    i = 0
     # TODO: 힙이 비어있지 않은 동안 반복
     ## 힙에서 우선순위가 가장 높은 환자 꺼내기
     ## 환자 처리
-    pass
+    while heap :
+        if heap[i][1] < heap[i+1][1]:
+            heap[i].append(processed)
+            heap[i + 1]
+
         
     return processed
 
