@@ -44,7 +44,7 @@ class LinkedList:
         
         # TODO: 마지막 노드 찾기
         current = self.head
-        while current.next is not None:
+        while current.next:
             current = current.next
         
         # TODO: 마지막 노드의 next를 new_node로 설정
