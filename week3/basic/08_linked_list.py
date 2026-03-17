@@ -56,7 +56,7 @@ class LinkedList:
         
         # TODO: head부터 시작
         current = self.head
-        while current is not None:
+        while current is not None-:
             values.append(current.data)
             current = current.next
         
