@@ -66,7 +66,10 @@ for i in range(m):
         insert(cursor, cmd[1])
 node = head.next
 result = []
+
 while node != tail:
     result.append(node.data)
     node = node.next
+
+
 sys.stdout.write("".join(result))
