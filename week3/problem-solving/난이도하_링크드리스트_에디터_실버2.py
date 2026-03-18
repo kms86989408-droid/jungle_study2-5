@@ -25,6 +25,7 @@ import sys
 
 # print("".join(left+right[::-1]))
 input = sys.stdin.readline
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -43,6 +44,7 @@ m = int(input())
 
 head = Node(None) #시작더미
 tail = Node(None) #끝 더미
+
 head.next = tail
 tail.prev = head
 cursor = tail
